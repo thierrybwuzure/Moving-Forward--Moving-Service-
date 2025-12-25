@@ -64,4 +64,4 @@ As this project evolves, expect to see:
 
 ---
 
-**Note**: This is a work in progress. New features and improvements are being added progressively as my skills expand.
+**Note**: New features and improvements are being added progressively.
