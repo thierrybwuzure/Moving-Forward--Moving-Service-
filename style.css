@@ -99,8 +99,10 @@ span {
     }
 }
 
-@media (max-width: 680px) {
-    .hero-p {
-        font-size: 1rem;
+@media (max-width: 768px) {
+    .hero-container {
+        height: auto;
+        min-height: 60vh;
+        padding-bottom: 3rem;
     }
 }
