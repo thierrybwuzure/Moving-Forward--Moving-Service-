@@ -41,9 +41,7 @@ nav li {
 }
 
 .accueil-header,
-.story-header {
-    background-color: rgb(246, 246, 246, 0.75);
-}
+.story-header {}
 
 /* Hero */
 .hero-container {
@@ -84,7 +82,7 @@ span {
 
 @media (max-width: 991.98px) {
     .navbar-collapse {
-        background-color: rgb(249, 237, 223);
+        background-color: rgb(254, 243, 230, 0.5);
         padding: 1rem;
         margin-top: 0.5rem;
         border-radius: 0.75rem;
