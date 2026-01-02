@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     overflow-x: hidden;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 .bg-dark.bg-gradient {
@@ -48,10 +51,18 @@ body {
     background-repeat: no-repeat;
 }
 
+.story-header,
+.accueil-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 70vh;
+}
+
 /* Hero */
 .hero-container {
     width: 100%;
-    height: 100vh;
+    min-height: 85vh;
 }
 
 .hero-title {
@@ -96,7 +107,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5));
     z-index: 0;
 }
 
@@ -107,9 +118,9 @@ span {
 }
 
 .hero-container p {
-    color: rgb(254, 243, 230);
-    text-shadow: 1px 1px 1px black;
-    text-align: left;
+    color: rgb(253, 244, 233);
+    text-shadow: 2px 1px 2px black;
+
 }
 
 @media (max-width: 991.98px) {

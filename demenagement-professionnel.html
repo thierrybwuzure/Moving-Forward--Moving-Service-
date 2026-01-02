@@ -27,36 +27,41 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="apropos.html">À propos</a>
+                        <a class="nav-link" href="apropos.html">À propos</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Services
                         </a>
                         <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Tous nos services</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item" href="demenagement-residential.html">Déménagement
-                                    résidentiel</a></li>
+                                    résidentiel</a>
+                            </li>
                             <li><a class="dropdown-item" href="demenagement-professionnel.html">Déménagement
                                     professionnel</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="transport-materiel.html">Transport de matériel et de
-                                    meubles</a></li>
+                            <li><a class="dropdown-item" href="transport-materiel.html">Transport de matériel et
+                                    mobilier</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Nous contacter</a>
-                    </li>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Code postal" aria-label="Search" />
+                        <button class="btn btn-primary" type="submit">Vérifier</button>
+                    </form>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Code postal" aria-label="Search" />
-                    <button class="btn btn-primary" type="submit">Vérifier</button>
-                </form>
+                <li class="nav-item" style="list-style-type: none; margin-right: 20px;">
+                    <a class="nav-link" href="contact.html">Nous contacter</a>
+                </li>
             </div>
         </div>
     </nav>
