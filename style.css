@@ -71,9 +71,7 @@ body {
     text-shadow: 1px 2px 3px black;
 }
 
-.hero-p {
-    padding: 25px;
-}
+.hero-p {}
 
 /* Features */
 .feature-icon {
